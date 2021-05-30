@@ -1,0 +1,59 @@
+.quick-links {
+  margin: auto;
+  width: 100%;
+}
+
+.quick-links ul {
+  display: inline-flex;
+  margin: 25px auto;
+  text-align: center;
+  margin-top: 25vh;
+}
+
+.quick-links ul li {
+  list-style: none;
+  margin: 0 27px;
+  cursor: pointer;
+}
+.quick-links ul li .fa {
+  font-size: 25px;
+  color: white;
+}
+.quick-links ul li p {
+  margin-top: 15px;
+  font-size: 10px;
+  color: white;
+}
+
+@media only screen and (max-width: 650px) {
+  .quick-links {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .quick-links {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .quick-links {
+    margin-top: 15vh;
+  }
+}
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) {
+  .quick-links {
+    margin-top: 15vh;
+  }
+}
+
+@media only screen and (device-width: 1024px) and (device-height: 1336px) {
+  .quick-links {
+    margin-top: 15vh;
+  }
+}

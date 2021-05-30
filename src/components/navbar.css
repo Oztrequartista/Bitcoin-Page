@@ -1,0 +1,70 @@
+@media only screen and (max-width: 750px) {
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("../assets/burger5.jpg") !important;
+  }
+  #center-menu {
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #center-menu {
+    align-items: center;
+  }
+  #hamburger {
+    border-radius: 15%;
+    border: none;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("../assets/burger5.jpg") !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("../assets/burger5.jpg") !important;
+  }
+
+  .right > .signup-btn {
+    top: 10px !important;
+    right: 5px !important;
+    position: absolute;
+  }
+  /* .navbar-nav {
+    align-items: end;
+  }  */
+}
+@media only screen and (max-width: 375px) {
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("../assets/burger5.jpg") !important;
+  }
+}
+
+#color {
+  color: #b2b1b1;
+  transition: all 500ms ease-in-out;
+}
+#color:hover {
+  color: #fff;
+}
+
+.right > .signup-btn {
+  top: 10px;
+  right: 30px;
+  position: absolute;
+
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 20px;
+
+  background-image: linear-gradient(#42455a, #42455a),
+    radial-gradient(circle at top left, #fd00da, #19d7f8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.signup-btn span {
+  display: block;
+  padding: 5px 20px;
+}
